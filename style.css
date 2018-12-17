@@ -1,0 +1,24 @@
+
+
+.number{
+  text-align: center;
+  font-size: 50px;
+  background: linear-gradient(to right, rgba(220,245,91,1) 0%, rgba(199,236,81,1) 18%, rgba(146,212,57,0.96) 63%, rgba(116,199,44,0.99) 88%, rgba(116,199,44,1) 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  
+}
+
+.page{
+  text-align: center;
+  font-size: 50px;
+  background: radial-gradient(at 75% 10%, purple, cyan);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+ .button{
+   text-align: center;
+   font-size: 50px;
+ }
+ 
