@@ -4,8 +4,8 @@ body{
 }
 .number{
   text-align: center;
-  font-size: 50px;
-  background: linear-gradient(to right, rgba(220,245,91,1) 0%, rgba(199,236,81,1) 18%, rgba(146,212,57,0.96) 63%, rgba(116,199,44,0.99) 88%, rgba(116,199,44,1) 100%);
+  font-size: 70px;
+  background: pink;
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   
@@ -14,25 +14,27 @@ body{
 .page{
   text-align: center;
   font-size: 50px;
-  background: radial-gradient(at 75% 10%, purple, cyan);
+  background: radial-gradient(at 75% 10%, pink, white);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
 
  .button{
+   margin-top: 60px;
    text-align: center;
-   font-size: 50px;
+   font-size: 60px;
   
   
  }
  
    .text-boven{
      display: flex;
-     justify-content: center;
+     justify-content: flex-start;
      flex-direction: column;
      align-self: auto;
      
-
+    top: 220px;
+    position: relative;
    }
 
 
@@ -43,14 +45,14 @@ body{
    }
 
 
+   
 
 
 
 
 
 
-
-
+/*animation */
  .clouds{
 	position: relative;
 	top: -400px;
@@ -165,3 +167,12 @@ body{
 		margin-left: -125em;
 	}
 }
+
+
+
+
+
+
+
+
+
